@@ -1,0 +1,362 @@
+/* GLOBAL STYLES */
+body {
+    font-family: 'Roboto', cursive;
+}
+
+.primary-btn {
+    background-color: #00AFDB;
+    color: white;
+    padding: 15px 47px 15px 47px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.heading-secondary {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+/* <GLOBAL STYLES /> */
+
+/* < NAV BLOCK > */
+nav {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+li.active {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.nav-item {
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.nav-logo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-logo > svg {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* < NAV BLOCK /> */
+
+/* <Main section > */
+.main-section {
+    background-image: url("assets/bg-image.png");
+    height: 675px;
+    position: relative;
+}
+
+.main-section .main-section-text-container {
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+.main-section-text-container > h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin: 0 auto;
+}
+
+.main-section-text-container > h2 {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 504px;
+    margin: 20px auto 0;
+}
+
+.get-started-btn {
+    margin-top: 30px;
+}
+
+.main-section-svg-part {
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* < Main section /> */
+
+/* < LIFE BLOCK > */
+
+.life-block {
+    display: flex;
+    height: 842px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 269px;
+    margin-right: 269px;
+}
+
+.life-block > p {
+    width: 407px;
+}
+
+.life-block > div {
+    flex: 1 1 0;
+}
+
+.left-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.left-content-wrapper > h3 {
+    width: 350px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #373737;
+}
+
+.left-content-wrapper > p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 407px;
+}
+
+.right-image-wrapper {
+    text-align: center;
+}
+
+.right-image-wrapper > img {
+    height: 582px;
+    width: 407px;
+}
+
+/* < LIFE BLOCK /> */
+
+/* < Community block > */
+
+.community-block {
+    background-color: #F5F6F7;
+    height: 504px;
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-wrapper-right {
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.community-wrapper-left {
+    margin-left: 269px;
+    text-align: center;
+    margin-right: 139px;
+    width: 298px;
+}
+
+
+.community-wrapper-left > h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.community-wrapper-left > p {
+    font-size: 14px;
+    width: 298px;
+}
+
+.slider-selections {
+    margin-left: 300px;
+}
+
+.slider-images {
+    display: flex;
+
+}
+
+.slider-images > img {
+    width: 407px;
+    height: 244px;
+    margin-right: 30px;
+}
+
+/* < Community block /> */
+
+
+/* < Implement-block > */
+
+.implement-block {
+    display: flex;
+    height: 842px;
+    align-items: center;
+    justify-content: center;
+}
+
+.implement-block > div {
+    flex: 1 1 0;
+}
+
+.implement-content-left {
+    text-align: center;
+
+}
+
+.implement-content-right > p {
+    width: 415px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+
+/* < Implement-block /> */
+
+
+/* < Sign Up-block > */
+.sign-up-block {
+    height: 524px;
+    background: url("assets/sign-up-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.sign-up-block > h6 {
+    margin-bottom: 25px;
+}
+
+.sign-up-submit-wrapper {
+    position: relative;
+}
+
+.sign-up-submit-wrapper > input {
+    width: 340px;
+    height: 46px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 39px;
+}
+
+
+.sign-up-submit-wrapper > button {
+    background-color: #00AFDB;
+    height: 100%;
+    width: 66px;
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+.sign-up-submit-wrapper > button > svg {
+    padding: 0;
+}
+
+/* < Sign Up-block /> */
+
+
+/* < Download -block > */
+.download-block {
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.download-block > h6{
+    margin-bottom: 25px;
+}
+
+.download-block > p {
+    width: 490px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.download-block > svg{
+    padding: 0;
+}
+
+.download-block .btn-group .primary-btn {
+    padding: 15px 18px;
+    margin-right: 100px;
+    width: 130px;
+    position: relative;
+}
+
+.download-block .primary-btn > span {
+    position: absolute;
+    right: -59px;
+    top: 0;
+    height: 46px;
+    width: 59px;
+    background: #009CC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* < Download -block /> */
+
+
+/* < Footer block > */
+footer {
+    height: 185px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > ul >li  {
+    margin-right: 46px;
+}
+
+.author-text {
+    color: #818181;
+}
+
+/* < Footer block /> */
