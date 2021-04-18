@@ -46,6 +46,11 @@ li {
     font-weight: 400;
 }
 
+nav li:hover{
+    color: red;
+    cursor: pointer;
+}
+
 li.active {
     font-weight: 500;
     text-decoration: underline;
@@ -106,12 +111,27 @@ li.active {
     margin-top: 30px;
 }
 
+.primary-btn:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .main-section-svg-part {
     color: white;
     position: absolute;
     bottom: 90px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.main-section-svg-part svg {
+    margin-right: 30px;
+}
+
+.main-section-svg-part > svg:hover {
+    cursor: pointer;
+    stroke: red;
 }
 
 /* < Main section /> */
@@ -204,11 +224,21 @@ li.active {
 
 .slider-selections {
     margin-left: 300px;
+    margin-bottom: 20px;
 }
 
 .slider-images {
     display: flex;
+}
 
+.slider-arrow:hover {
+    cursor: pointer;
+    stroke: red;
+}
+
+.slider-arrow:hover > svg > path {
+    cursor: pointer;
+    stroke: red;
 }
 
 .slider-images > img {
@@ -240,7 +270,6 @@ li.active {
 
 .implement-content-right > p {
     width: 415px;
-    font-weight: 500;
     margin-bottom: 50px;
 
 }
@@ -267,6 +296,8 @@ li.active {
     position: relative;
 }
 
+/*sign-up-submit-wrapper.*/
+
 .sign-up-submit-wrapper > input {
     width: 340px;
     height: 46px;
@@ -290,6 +321,10 @@ li.active {
     padding: 0;
 }
 
+.sign-up-submit-wrapper > button:hover > svg > path {
+    fill: red;
+}
+
 /* < Sign Up-block /> */
 
 
@@ -303,7 +338,7 @@ li.active {
 
 }
 
-.download-block > h6{
+.download-block > h6 {
     margin-bottom: 25px;
 }
 
@@ -313,14 +348,13 @@ li.active {
     margin-bottom: 25px;
 }
 
-.download-block > svg{
+.download-block > svg {
     padding: 0;
 }
 
 .download-block .btn-group .primary-btn {
     padding: 15px 18px;
     margin-right: 100px;
-    width: 130px;
     position: relative;
 }
 
@@ -336,6 +370,11 @@ li.active {
     justify-content: center;
 }
 
+.btn-group .primary-btn:hover > span > svg > path {
+    fill: red;
+    stroke: red;
+    transition: 0.4s;
+}
 
 /* < Download -block /> */
 
@@ -351,9 +390,15 @@ footer {
     align-items: center;
 }
 
-footer > ul >li  {
+footer > ul > li {
     margin-right: 46px;
 }
+
+footer > ul > li:hover {
+    color: red;
+    cursor: pointer;
+}
+
 
 .author-text {
     color: #818181;
